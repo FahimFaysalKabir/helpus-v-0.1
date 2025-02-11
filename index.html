@@ -13,14 +13,27 @@
     
     <style>
         .dc-hero{
-            background-image: url("hero-1.jpg");
-            height:700px;
-            width:100%;
-            background-size:cover;
-            background-position: center center;
-            background-repeat: no-repeat;
+        background-image: url("hero-1.jpg");
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; 
+    } 
+
+       .menu ul li{
+        display: inline-block;}
+
+        .menu ul li a{
+            text-decoration: none;
+            color: red;
         }
-          
+   
+        .dc-hero .dc-menu .row{
+            width:100%;
+            height:100px;
+            background-color: #fff;
+        }
+
     </style>
 
 </head>
@@ -30,7 +43,31 @@
  
       
                 <div class="dc-hero" >
-                    <p>hello world </p>
+                    <div class="dc-menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-3 logo">
+                                    <a href="index.html">
+                                        <img src="assets/img/logo/logo.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-xl-5 menu">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Causes</a></li>
+                                        <li><a href="#">Pages</a></li>
+                                        <li><a href="#">Donate</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-2"></div>
+                                <div class="col-xl-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
                 </div>
                  
           
