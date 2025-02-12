@@ -12,27 +12,41 @@
     <link rel="stylesheet" href="assets/css/style.css">
     
     <style>
+        @font-face {
+        src: url(assets/fonts/Inter-SemiBold.otf);
+        font-family:inter-semi;
+        }
         .dc-hero{
         background-image: url("hero-1.jpg");
         height: 600px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; 
+        position: relative;
+        z-index:0;
     } 
 
        .menu ul li{
         display: inline-block;}
 
         .menu ul li a{
+            font-family:inter-semi;
+            font-size:16px;
             text-decoration: none;
-            color: red;
+            color:#063D30;
         }
-   
-        .dc-hero .dc-menu .row{
+        .bg-white{
+            position:absolute ;
+            top:26px;
+            color:#fff;
+            z-index:1;
             width:100%;
-            height:100px;
-            background-color: #fff;
-        }
+          
+
+
+
+}
+       
 
     </style>
 
@@ -43,11 +57,12 @@
  
       
                 <div class="dc-hero" >
-                    <div class="dc-menu">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-3 logo">
-                                    <a href="index.html">
+                  
+                  <div class="container">
+                     <div class="bg-white">
+                        <div class="row">
+                            <div class="col-xl-3">
+                                <a href="index.html">
                                         <img src="assets/img/logo/logo.png" alt="">
                                     </a>
                                 </div>
@@ -65,8 +80,8 @@
                                 <div class="col-xl-2"></div>
                             </div>
                         </div>
+                   
                     </div>
-                    
                     
                 </div>
                  

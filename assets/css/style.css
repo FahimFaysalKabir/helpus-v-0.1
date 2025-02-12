@@ -1,6 +1,5 @@
- 
-     
-.dc-hero p{
-   color: red;
-    
-}
+@font-face {
+    src: url(assets/fonts/Inter-SemiBold.otf);
+    font-family:inter-semi;
+    }
+
