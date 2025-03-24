@@ -1,1 +1,1 @@
-sass --watch "D:\Web Design Envato - Batch\sass-learn\sass\main.scss":"D:\Web Design Envato - Batch\sass-learn\css\style.css"
+sass --watch "C:\Users\ASUS\Dropbox\salim rana vi\helpus-working\helpus-v-0.1\assets\scss\main.scss":"C:\Users\ASUS\Dropbox\salim rana vi\helpus-working\helpus-v-0.1\assets\css\style.css"
